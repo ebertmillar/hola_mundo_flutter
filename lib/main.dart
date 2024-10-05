@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world_app/presentacion/pantallas/contador/pantalla_contador.dart';
+//import 'package:hello_world_app/presentacion/pantallas/contador/pantalla_contador.dart';
+import 'package:hello_world_app/presentacion/pantallas/contador/pantalla_funciones_contador.dart';
 
 void main(){
   runApp( const MyApp() );  
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget{
         useMaterial3: true,
         colorSchemeSeed: Colors.blue
       ),
-      home: const PantallaContador()
+      home: const PantallaFuncionesContador()
       
     );
   }
